@@ -1,0 +1,3 @@
+Q) I want to delegate the saving process to the database engine instead of having it on the application side, which database utility would you use?
+
+A) 

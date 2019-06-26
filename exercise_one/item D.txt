@@ -1,0 +1,10 @@
+Q) Consider that I want to query all the people in the database and the engine is taking too long to respond. Which are the possible solutions? How would you determine the problem?
+
+A) The problem might be what we want to get too much unnecessary information from database.
+The possible solutions are:
+    Get only a part of the values each time, and get process while the next page is querying.
+    Reduce the domain, is really necessary all the people?
+    Check the query, conditions, joins, etc.
+
+To determinate the problem I suggest check what is getting for the query, and if we need all those values/rows
+

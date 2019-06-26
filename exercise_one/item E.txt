@@ -1,0 +1,4 @@
+Q) I want to query all the students which ages are between 19 and 22. How would you optimize this query?
+
+A) If this query is high priority we can make the birth date in the order key of the table. But this gets worse performance to add a new student.
+We can also create a view with the students that have between 19 and 22 years old. And a stored procedure that updates this on a new student or each some time (day, week, month)
